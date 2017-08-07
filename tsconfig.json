@@ -13,9 +13,9 @@
     "sourceMap": true,
     "noUnusedParameters": true,
     "noUnusedLocals": true,
-    "outDir": "../lib"
+    "outDir": "lib"
   },
-  "exclude": [
-    "../src/**/*.test.ts"
+  "include": [
+    "src/*.ts"
   ]
 }
