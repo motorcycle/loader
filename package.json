@@ -19,7 +19,7 @@
     "validate-commit-message": "3.0.1"
   },
   "dependencies": {
-    "@motorcycle/compiler": "1.0.0"
+    "@motorcycle/compiler": "2.0.0"
   },
   "lint-staged": {
     "*.ts": [
