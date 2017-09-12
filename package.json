@@ -2,7 +2,7 @@
   "name": "@motorcycle/loader",
   "description": "Webpack Loader for Motorcycle",
   "repository": "https://github.com/motorcyclets/loader",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "typings": "lib/index.d.ts",
