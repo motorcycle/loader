@@ -9,17 +9,21 @@
   "author": "Tylor Steinberger <tlsteinberger167@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@motorcycle/dom": "16.0.0",
+    "@motorcycle/mostly-dom": "4.0.0",
+    "@motorcycle/run": "4.0.0",
+    "@motorcycle/stream": "2.0.0",
     "@typed/test": "2.5.0",
-    "@types/node": "8.0.19",
-    "conventional-changelog-cli": "1.3.2",
+    "@types/node": "8.0.28",
+    "conventional-changelog-cli": "1.3.3",
     "husky": "0.14.3",
-    "lint-staged": "4.0.3",
-    "prettier": "1.5.3",
-    "typescript": "2.4.2",
+    "lint-staged": "4.1.3",
+    "prettier": "1.6.1",
+    "typescript": "2.5.2",
     "validate-commit-message": "3.0.1"
   },
   "dependencies": {
-    "@motorcycle/compiler": "2.2.0"
+    "@motorcycle/compiler": "3.0.0"
   },
   "lint-staged": {
     "*.ts": [

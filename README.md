@@ -13,7 +13,7 @@ npm install --save-dev @motorcycle/loader
 ## Usage
 
 To make use of this loader you only need to add `@motorcycle/loader` before 
-`ts-loader`.
+`ts-loader` in your webpack configuration file.
 
 ```typescript
 // webpack.config.js
