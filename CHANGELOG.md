@@ -1,3 +1,13 @@
+<a name="2.1.0"></a>
+# [2.1.0](https://github.com/motorcyclets/loader/compare/v2.0.0...v2.1.0) (2017-09-15)
+
+
+### Bug Fixes
+
+* ensure entry and resourcePath exist ([d4cefa9](https://github.com/motorcyclets/loader/commit/d4cefa9))
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/motorcyclets/loader/compare/v1.2.0...v2.0.0) (2017-09-12)
 
