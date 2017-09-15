@@ -10,21 +10,33 @@ yarn add --dev @motorcycle/loader
 npm install --save-dev @motorcycle/loader
 ```
 
+## Motorcycle Starter
+
+This loader and other webpack optimizations are configured for you in our very 
+own Motorcycle starter application, which can be found [here](https://github.com/motorcyclets/starter).
+
 ## Usage
 
 To make use of this loader you only need to add `@motorcycle/loader` before 
-`ts-loader` in your webpack configuration file.
+`ts-loader` in your webpack configuration with some configuration.
 
 ```typescript
 // webpack.config.js
+const entry = 'src/bootstrap.ts'
+
 module.exports = {
-  entry: 'src/bootstrap.ts',
+  entry,
   module: {
     rules: [
       {
         test: /\.ts$/,
         use: [
-          '@motorcycle/loader',
+          {
+            loader: '@motorcycle/loader',
+            options: {
+              entries: [ entry ]
+            }
+          },
           'ts-loader'
         ],
         exclude: /node_modules/
@@ -34,3 +46,10 @@ module.exports = {
   // other configuration options
 }
 ```
+
+## Options
+
+#### `entries: Array<string>`
+
+Entries are paths, relative or absolute, to the part(s) of your application that 
+have calls to `run` from `@motorcycle/run`.
