@@ -27,7 +27,7 @@ function loader(this: loader.Context, source: string, map: string) {
 
   const callback = this.async()
 
-  if (isEntry(entry, resourcePath)) {
+  if (entry && resourcePath && isEntry(entry, resourcePath)) {
     const { code, sourceMap } = compile(resourcePath)
 
     return callback(null, code, sourceMap)
