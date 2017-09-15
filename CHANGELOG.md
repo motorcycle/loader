@@ -1,3 +1,13 @@
+<a name="3.0.0"></a>
+# [3.0.0](https://github.com/motorcyclets/loader/compare/v2.1.0...v3.0.0) (2017-09-15)
+
+
+### Bug Fixes
+
+* reliable results when working with other loaders ([e6916a1](https://github.com/motorcyclets/loader/commit/e6916a1))
+
+
+
 <a name="2.1.0"></a>
 # [2.1.0](https://github.com/motorcyclets/loader/compare/v2.0.0...v2.1.0) (2017-09-15)
 
