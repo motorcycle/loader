@@ -13,7 +13,7 @@
     "@motorcycle/mostly-dom": "4.0.0",
     "@motorcycle/run": "4.0.0",
     "@motorcycle/stream": "2.0.0",
-    "@typed/test": "3.2.0",
+    "@typed/test": "3.5.0",
     "@types/loader-utils": "1.1.0",
     "@types/node": "8.0.28",
     "@types/webpack": "3.0.10",
