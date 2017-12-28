@@ -127,9 +127,9 @@
     webpack-merge "4.1.0"
     yargs "9.0.1"
 
-"@types/loader-utils@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@types/loader-utils/-/loader-utils-1.1.0.tgz#6e71758ea4f529afca36fdebffd5b48c579e90da"
+"@types/loader-utils@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@types/loader-utils/-/loader-utils-1.1.1.tgz#3522ac71af49cc3e3385587c395172397d1fb1c2"
   dependencies:
     "@types/node" "*"
     "@types/webpack" "*"
