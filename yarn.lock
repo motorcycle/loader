@@ -152,9 +152,17 @@
   dependencies:
     "@types/source-map" "*"
 
-"@types/webpack@*", "@types/webpack@3.0.10":
+"@types/webpack@*":
   version "3.0.10"
   resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-3.0.10.tgz#1d27db07df32109f8c882535b547aae4252fd53e"
+  dependencies:
+    "@types/node" "*"
+    "@types/tapable" "*"
+    "@types/uglify-js" "*"
+
+"@types/webpack@3.8.2":
+  version "3.8.2"
+  resolved "https://registry.yarnpkg.com/@types/webpack/-/webpack-3.8.2.tgz#489276aa101b8364fa444f358e7c220a65c2cc66"
   dependencies:
     "@types/node" "*"
     "@types/tapable" "*"
