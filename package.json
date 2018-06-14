@@ -21,7 +21,7 @@
     "husky": "0.14.3",
     "lint-staged": "4.2.1",
     "prettier": "1.7.0",
-    "typescript": "2.5.2",
+    "typescript": "2.9.2",
     "validate-commit-message": "3.0.1"
   },
   "dependencies": {
